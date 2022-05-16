@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mi sitio web</title>
+  </head>
+
+  <body>
+    <header><h1>Debrable</h1></header>
+    <nav>
+      <ul>
+        <li><a href="./index.html#películas">Mi TOP 10 películas</a></li>
+        <li><a href="./index.html#viaje_Japón">Mi viaje a Japón</a></li>
+        <li><a href="./index.html#contacto">Mándame un mensaje</a></li>
+      </ul>
+    </nav>
+    <main>
+      <section>
+        <header><h2>Debra Smith</h2></header>
+        <aside>
+          <figure>
+            <img
+              height="100"
+              src="https://media.gettyimages.com/photos/group-of-friends-having-fun-picture-id1162987349?k=20&m=1162987349&s=612x612&w=0&h=V9CEWIdN2K5DBdvAE4bPbPJMmwGhnG1Hdwy-d18MuUs="
+              alt="Image2"
+            />
+          </figure>
+          <p>Aquí escribo todo lo que se me ocurre</p>
+          <address>
+            <a href="mailto:debra.smith@example.com">debra.smith@example.com</a>
+          </address>
+        </aside>
+      </section>
+      <section id="películas">
+        <header><h2>Mi TOP 10 películas</h2></header>
+        <ol>
+          <li>El Padrino</li>
+          <li>La lista de Schlinder</li>
+          <li>El Padrino. PArte II</li>
+          <li>Cadena perpetua</li>
+          <li>Pulp Fiction</li>
+          <li>El rey león</li>
+          <li>Forrest Gump</li>
+          <li>La vida es bella</li>
+          <li>Gladiator</li>
+          <li>Coco</li>
+        </ol>
+      </section>
+      <section id="viaje_Japón">
+        <header><h2>Mi viaje a Japón</h2></header>
+        <article>
+          <figure>
+            <img
+              height="200"
+              src="https://media.gettyimages.com/photos/happy-male-friends-in-kitchen-at-college-dorm-picture-id1374485792?s=2048x2048"
+              alt="Imagen1"
+            />
+          </figure>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam esse
+            eligendi, a quaerat voluptatum nulla quis cupiditate repellat quasi
+            officiis vel dolorum hic rerum accusamus quibusdam neque soluta
+            voluptas. Nesciunt? Tempore modi labore nesciunt vitae officia earum
+            dignissimos reiciendis cumque rem nam quidem iure recusandae
+            quisquam magnam blanditiis dicta alias, eveniet animi corrupti
+            repellendus soluta quo, perspiciatis perferendis voluptate. A?
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias
+            repellendus odio corporis placeat commodi reiciendis. Doloremque
+            blanditiis minus sed ex fuga! Provident, id optio aperiam quia et
+            nobis corporis dicta.
+          </p>
+        </article>
+      </section>
+
+      <section id="contacto">
+        <header><h2>Mándame un mensaje</h2></header>
+        <form action="#">
+          <fieldset>
+            <label for="name">Nombre</label>
+            <input type="text" name="name" id="nombre" required />
+            <label for="E-mail">E-mail</label>
+            <input
+              required
+              type="E-mail"
+              name="E-mail"
+              id="E-mail"
+              placeholder="debra.smith@example.com"
+            />
+            <label for="date">Fecha de nacimiento</label>
+            <input type="date" name="date" id="fecha" required />
+
+            <label for="message">Comentarios</label>
+            <textarea
+              name="comentarios"
+              id="comentarios"
+              cols="30"
+              rows="10"
+              placeholder="Escribe aquí tu comentario"
+            ></textarea>
+          </fieldset>
+          <fieldset>
+            <label for="newsletter">Suscribirse a la newsletter</label>
+            <input type="checkbox" name="checkbox" id="checkbox" />
+            <button type="submit">Enviar</button>
+          </fieldset>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <a href="">Términos y condiciones</a>
+      <a href="">Política de privacidad</a>
+    </footer>
+  </body>
+</html>

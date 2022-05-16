@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ejercicio HTML 1</title>
+  </head>
+
+  <body>
+    <header><h1>Formulario</h1></header>
+    <form action="#" method="get">
+      <fieldset>
+        <legend>Controles login</legend>
+        <label for="Nombre">Nombre</label>
+        <input type="text" name="nombre" id="nombre" autofocus />
+        <label for="E-mail">E-mail</label>
+        <input type="text" name="E-mail" id="e-mail" required />
+        <label for="URL">URL</label>
+        <input
+          type="text"
+          name="URL"
+          id="URL"
+          placeholder="Escribe la URL de tu página web personal"
+        />
+      </fieldset>
+      <fieldset>
+        <legend>Controles tiempo</legend>
+        <label for="Fecha">Fecha</label>
+        <input type="date" name="fecha" id="fecha" />
+        <label for="Tiempo">Tiempo</label>
+        <input type="time" name="tiempo" id="tiempo" />
+        <label for="fecha_y_hora">Fecha y hora</label>
+        <input type="datetime-local" name="fecha_y_hora" id="Fecha_y_hora" />
+        <label for="Mes">Mes</label>
+        <input type="month" name="mes" id="mes" />
+        <label for="semana">Semana</label>
+        <input type="week" name="semana" id="semana" />
+      </fieldset>
+      <fieldset>
+        <legend>Controles varios</legend>
+        <label for="número">Número</label>
+        <input type="number" name="número" id="número" min="-10" max="10" />
+        <label for="teléfono">Teléfono</label>
+        <input
+          type="tel"
+          name="teléfono"
+          id="teléfono"
+          value="667239047"
+          readonly
+        />
+        <label for="search">Búsqueda</label>
+        <input type="search" name="search" id="search" disabled />
+        <label for="colores">Color favorito</label>
+        <input type="color" name="color" id="color" />
+      </fieldset>
+      <button type="submit">Envío</button>
+    </form>
+  </body>
+</html>
